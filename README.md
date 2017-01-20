@@ -18,11 +18,11 @@ You can use the following keys to authenticate your app to use the API or you ca
 
 ## Your public key
 
--> 54306733de0f5cd1418aa05a85fa062a <-
+54306733de0f5cd1418aa05a85fa062a
 
 ## Your private key
 
--> 5de1fabcda2ea08912bd8b09bca4321f50563655 <-
+5de1fabcda2ea08912bd8b09bca4321f50563655
 
 ## Rules
 

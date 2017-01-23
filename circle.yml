@@ -2,7 +2,7 @@ machine:
   environment:
     GRADLE_OPTS: '-Dorg.gradle.jvmargs="-Xmx2048m -XX:+HeapDumpOnOutOfMemoryError"'
   java:
-    version: oraclejdk7
+    version: oraclejdk8
 
 test:
   post:
@@ -13,8 +13,6 @@ dependencies:
     - echo y | android update sdk --no-ui --all --filter tools,extra-android-m2repository,extra-android-support,android-25
     - echo y | android update sdk --no-ui --all --filter build-tools-25.0.2
     - chmod +x gradlew
-    - ANDROID_HOME=/usr/local/android-sdk-linux ./gradlew dependencies
-    - echo "export rvm_ignore_gemsets_flag=1" >> ~/.rvmrc
     - gem install bundler
 
 deployment:

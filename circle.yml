@@ -10,8 +10,8 @@ test:
 
 dependencies:
   pre:
-    - echo y | android update sdk --no-ui --all --filter tools,extra-android-m2repository,extra-android-support,android-24
-    - echo y | android update sdk --no-ui --all --filter build-tools-24.0.1
+    - echo y | android update sdk --no-ui --all --filter tools,extra-android-m2repository,extra-android-support,android-25
+    - echo y | android update sdk --no-ui --all --filter build-tools-25.0.2
     - chmod +x gradlew
     - echo "export rvm_ignore_gemsets_flag=1" >> ~/.rvmrc
     - gem install bundler
